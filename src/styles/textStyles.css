@@ -1,0 +1,21 @@
+.tiny_header{
+    font-style: italic;
+    color: lightslategrey;
+    font-size: 9px;
+}
+
+.main_text{
+    color: #191919;
+}
+
+.term_text{
+    color: black;
+    background-color: gray;
+    font-size: 12px;
+    height: 50px;
+    vertical-align: central;
+    horiz-align: center;
+    padding-top: 30px;
+    padding-left: 100px;
+    margin-top: 150px;
+}
