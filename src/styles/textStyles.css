@@ -1,21 +1,157 @@
-.tiny_header{
-    font-style: italic;
-    color: lightslategrey;
-    font-size: 9px;
+.header, .main {
+    width: 1062px;
+    margin: 0 auto;
+    padding-bottom: 96px;
 }
 
-.main_text{
-    color: #191919;
+.header_logo {
+    display: inline-block;
+    vertical-align: center;
+    horiz-align: left;
 }
 
-.term_text{
-    color: black;
-    background-color: gray;
+.header_list {
+    display: inline-block;
+    vertical-align: center;
+    text-align: right;
+    padding-left: 89px;
+}
+
+.header_list_elem {
+    display: inline-block;
+    column-width: 191px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.header__image {
+
+}
+
+.main__left, .main__right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.main__left {
+    width: 657px;
+    padding-left: 80px;
+}
+
+.main__left__section {
+    margin: 0;
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+.main__left__title {
+    font-size: 30px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__left__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__left__crop{
+    float:left;
+    margin: 0;
+    overflow:hidden;
+}
+
+.main__left__crop img{
+    margin: -150px -100px -10px -171px;
+}
+
+
+.main__right {
+    box-sizing: border-box;
+    float: right;
+    width: 284px;
+    padding-left: 50px;
+}
+
+.main__right__crop{
+    margin: 0;
+    overflow:hidden;
+}
+.main__right__crop img{
+    margin: -2px -6px -6px -4px;
+}
+
+.main__right__header {
+    font-size: 24px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__right__text {
     font-size: 12px;
-    height: 50px;
-    vertical-align: central;
-    horiz-align: center;
-    padding-top: 30px;
-    padding-left: 100px;
-    margin-top: 150px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial";
+}
+
+.main__right__list__title {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial";
+}
+
+.main__right__list {
+    padding-left: 20px;
+}
+
+.main__right__list__elem {
+
+}
+
+.main__right__list__elem_title {
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial";
+    margin-bottom: 14px;
+}
+
+.main__right__list__elem_comment {
+    margin-top: 14px;
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial";
+    text-transform: uppercase;
+}
+
+
+
+.footer {
+    background-color: #f0f0f0;
+    height: 97px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer__list {
+    display: inline-block;
+    vertical-align: center;
+    text-align: left;
+    padding-left: 148px;
+}
+
+.footer__list__elem {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "Arial";
 }
